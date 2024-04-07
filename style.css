@@ -1,0 +1,395 @@
+.article-11-side img {
+  width: 100px;
+  float: right;
+  display: block;
+}
+
+.third-line-headers {
+  margin-bottom: 10vh;
+}
+
+.article-9 img {
+  margin-left: 10px;
+  position: relative;
+  width: 45%;
+  float: right;
+}
+
+.headers-second-row {
+  position: relative;
+}
+
+.headers-second-row::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: -3px;
+  width: 95%;
+  border-bottom: 2px solid rgb(235, 234, 234);
+}
+
+.third-line-headers {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  margin-bottom: 4vh;
+  margin-top: 2vh;
+}
+.third-line-headers::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: -30px;
+  width: 95%;
+  border-bottom: 2px solid black;
+}
+
+.third-line-headers::after {
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: -23px;
+  width: 95%;
+  border-bottom: 2px solid rgb(235, 234, 234);
+}
+
+.date {
+  margin-left: 2.5%;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: 0;
+  width: 95%;
+  border-bottom: 1px solid rgb(235, 234, 234);
+}
+
+.article-8 img {
+  width: 45%;
+  float: right;
+  margin-right: 0px;
+}
+
+.article-9-side img {
+  float: right;
+  width: 200px;
+}
+
+.article-3-side img {
+  margin: auto;
+}
+
+.article-2-side img {
+  margin: auto;
+}
+
+.top-bottons {
+  position: relative;
+  right: -100px;
+}
+.login {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(86, 123, 148);
+  color: white;
+  font-weight: bold;
+}
+.subscribe {
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(86, 123, 148);
+  color: white;
+}
+
+.top-bottons button {
+  height: 90%;
+}
+
+.article-1-side img {
+  width: 100%;
+}
+
+img {
+  padding: 5px;
+  display: block;
+  right: 10px;
+}
+video {
+  width: 95%;
+  padding: 5px;
+  display: block;
+  margin: auto;
+}
+
+.article-6-side img {
+  float: right;
+  margin: 15px;
+}
+
+.grid-container > div {
+  content: "";
+  position: relative;
+  left: 2%;
+  bottom: 0;
+  width: 95%;
+  border-bottom: 1px solid rgb(235, 234, 234);
+}
+
+.grid-container > div::before {
+  content: "";
+  position: absolute;
+  right: 2%;
+  bottom: 0;
+  width: 95%;
+  border-bottom: 1px solid rgb(235, 234, 234);
+}
+.article-3 {
+  position: relative;
+}
+
+.grid-container > div.article-3::before {
+  content: "";
+  left: -2%;
+  position: absolute;
+  bottom: 0;
+  width: 104%;
+  border-bottom: 1px solid black;
+}
+
+.grid-container > div.side::after {
+  padding: 15px;
+  content: "";
+  left: -4%;
+  position: absolute;
+  top: 0;
+  height: 105%;
+  border-left: 1px solid rgb(235, 234, 234);
+}
+
+.grid-container {
+  margin: auto;
+  display: grid;
+  width: 95%;
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "article-1 article-2   article-2          article-1-side"
+    "article-3  article-3   article-3          article-2-side"
+    " article-4  article-4  article-4-img         article-3-side"
+    " article-5  article-5  article-4-img          article-4-side"
+    " article-6  article-7  article-7         article-5-side"
+    " article-8  article-8  article-8          article-6-side"
+    " article-8  article-8  article-8          article-8-side"
+    " article-8  article-8  article-8          article-9-side"
+    " article-8  article-8  article-8          article-10-side"
+    " article-9  article-9  article-9          article-11-side"
+    " article-9  article-9  article-9          article-12-side"
+    " article-9  article-9  article-9          article-13-side";
+
+  grid-template-columns: auto auto auto 20%;
+
+  gap: 10px;
+}
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.headers-second-row {
+  display: flex;
+}
+
+.new-york-times-logo {
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+.small-header-1 {
+  font-size: 0.625rem;
+  line-height: 1.25em;
+  color: 727272;
+  margin-top: 0.75em;
+}
+
+.article-header-1 {
+  font-size: 1.15rem;
+  line-height: 1.5em;
+}
+.article-header-3 {
+  font-size: 1.15rem;
+  line-height: 1.5em;
+}
+
+.article-4 img {
+  width: 60%;
+  float: right;
+}
+
+.article-1 img {
+  width: 100%;
+}
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Domin", serif;
+  font-size: 1rem;
+}
+.article-2 {
+  width: 100%;
+}
+
+.article-2 img {
+  width: 60%;
+}
+
+.article-4-img img {
+  width: 100%;
+}
+
+.subject-menu-bar {
+  padding: 4px;
+}
+
+.headers-second-row {
+  grid-area: headers-second-row;
+  display: flex;
+}
+
+div.third-line-headers ul {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  list-style: none;
+}
+.subject-menu-bar ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.subject-menu-bar-2 {
+  grid-area: subject-menu-bar-2;
+}
+
+.subject-menu-bar-2 ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.top-nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.languages {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.subject-menu-bar {
+  grid-area: subject-menue-bar;
+}
+
+.header {
+  grid-area: header;
+}
+
+.third-line-headers {
+  grid-area: third-line-headers;
+}
+
+.article-1 {
+  grid-area: article-1;
+}
+
+.article-2 {
+  grid-area: article-2;
+  width: 100%;
+  height: 100%;
+}
+.article-3 {
+  grid-area: article-3;
+  height: auto;
+}
+.article-4 {
+  grid-area: article-4;
+}
+.article-5 {
+  grid-area: article-5;
+}
+.article-6 {
+  grid-area: article-6;
+}
+.article-7 {
+  grid-area: article-7;
+}
+.article-8 {
+  grid-area: article-8;
+}
+.article-9 {
+  grid-area: article-9;
+}
+
+.article-1-side {
+  grid-area: article-1-side;
+}
+.article-2-side {
+  grid-area: article-2-side;
+}
+.article-3-side {
+  grid-area: article-3-side;
+}
+.article-4-side {
+  grid-area: article-4-side;
+}
+.article-5-side {
+  grid-area: article-5-side;
+}
+.article-6-side {
+  grid-area: article-6-side;
+}
+.article-7-side {
+  grid-area: article-7-side;
+}
+.article-8-side {
+  grid-area: article-8-side;
+}
+.article-9-side {
+  grid-area: article-9-side;
+}
+.article-10-side {
+  grid-area: article-10-side;
+}
+
+.article-11-side {
+  grid-area: article-11-side;
+}
+.article-12-side {
+  grid-area: article-12-side;
+}
+.article-13-side {
+  grid-area: article-13-side;
+}
+
+.article-4-img {
+  grid-area: article-4-img;
+}
